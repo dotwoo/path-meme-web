@@ -36,7 +36,7 @@ export default defineNuxtConfig({
 
   // configuration options
   socialShare: {
-    baseUrl: "https://momo.gusibi.mobi", // required!
+    baseUrl: "https://blog.dotwoo.us.kg", // required!
     // other optional module options
   },
 
@@ -70,7 +70,8 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      apiBaseUrl: process.env.API_BASE_URL || "https://blog.dotwoo.us.kg",
+      apiBaseUrl:
+        process.env.API_BASE_URL || "https://min-blog.dotwoo.workers.dev/",
       repoOwner: process.env.REPO_OWNER || "dotwoo",
       repoName: process.env.REPO_NAME || "path-meme-db",
       perPageSize: process.env.PER_PAGE_SIZE || "10",
