@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Load all blog posts
     async function loadBlogPosts(timeline) {
         try {
-            const response = await fetch('https://path-memo-api.gusibi.mobi/api/blog-posts');
+            const response = await fetch('https://min-blog.dotwoo.workers.dev/api/blog-posts');
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
